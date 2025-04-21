@@ -1,4 +1,3 @@
-### dig @127.0.0.1 -p 5354 www.test.com
 import socket
 from dnslib import DNSRecord, DNSHeader, RR, QTYPE, A
 from dnslib.server import DNSServer, BaseResolver
